@@ -1,0 +1,120 @@
+// .left-box {
+//     width: 50%;
+//     height: 85vh;
+//     background-color: $color-primary;
+// }
+
+// .circle {
+//     width: 40px;
+//     height: 40px;
+//     background-color: $color-primary;
+//     position: absolute;
+//     border-radius: 50%;
+
+//     @include mq('desktop') {
+//         right: 15%;
+//         top: 60%;
+//     }
+// }
+
+// h1 {
+//     font-size: 100px;
+//     text-transform: uppercase;
+//     position: absolute;
+//     letter-spacing: 30px;
+
+//     @include mq('desktop') {
+//         right: 42%;
+//         top: 30%;
+//     }
+   
+// }
+
+// h1 span {
+//     position: absolute;
+//     @include mq('desktop') {
+//         right: -111%;
+//     }
+// }
+
+// ======================================
+//              Home
+// ======================================
+
+.dot {
+    width: 40px;
+    height: 40px;
+    background-color: $color-primary;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.homeHero-left {
+    background-color: $color-primary;
+    height: 85vh;
+    width: 50%;
+    text-align: right;
+}
+
+.homeHero-right {
+    background-color: $color-white;
+    height: 85vh;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.homeHero-left .title-top,
+.homeHero-right .title-top {
+    padding-top: 35%;
+    margin: 0;
+}
+
+.title{
+    margin: 0;
+}
+
+
+// ======================================
+//              About
+// ======================================
+
+.about-hero {
+    background-color: $color-primary;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .heading {
+        color: $color-white;
+        width: 60%;
+    }
+    .dot {
+        background-color: $color-secondary;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+        .title-top {
+            padding-right: 50px;
+        }
+        .title-bottom {
+            padding-left: 112px;
+            padding-bottom: 57px;
+        }
+    }
+
+}
+
+
+
+

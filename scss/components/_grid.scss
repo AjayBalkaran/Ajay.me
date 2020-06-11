@@ -2,11 +2,21 @@
 //              Grid
 // ======================================
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10% 80%;
+// .grid-container {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr 1fr;
+//     grid-template-rows: auto;
+//     grid-template-areas: 
+//     "left left right right"
+//     ;
+//     // height: 100vh;
+//     // margin: 2em;
+// }
 
-    height: 100vh;
-    margin: 2em;
-}
+// .left {
+//     grid-area: aboutHero-left;
+// }
+
+// .right {
+//     grid-area: aboutHero-right;
+// }
